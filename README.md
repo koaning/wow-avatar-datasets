@@ -1,3 +1,5 @@
+<img src="orc.png" width="125" height="125" align="right" />
+
 # World of Warcraft Avatar Datasets
 
 > A place to host some interesting parquet files.
@@ -14,3 +16,14 @@ positive integers with a consistent mapping (i.e., the same names were always ma
 to the same integers).
 
 This dataset can be an amazing resource to study bot behavior, churn, marketing and video game addiction.
+
+## Download 
+
+To download the data, run: 
+
+```
+# To get the `lite` version with only player_id, level and timestamp 
+wget 
+# To get the `full` version
+wget 
+```
