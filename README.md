@@ -4,6 +4,8 @@
 
 > A place to host some interesting parquet files.
 
+<br>
+
 This repository contains the parquet files that belong to the [World of Warcraft Avatar History Dataset](http://web.cs.wpi.edu/~claypool/mmsys-dataset/2011/wow/p123.pdf). 
 
 To quote the [docs](http://web.cs.wpi.edu/~claypool/mmsys-dataset/2011/wow/author.html); 
@@ -23,7 +25,7 @@ To download the data, run:
 
 ```
 # To get the `lite` version with only player_id, level and timestamp 
-wget 
+wget https://github.com/koaning/wow-avatar-datasets/blob/main/wow-lite.parquet
 # To get the `full` version
-wget 
+wget https://github.com/koaning/wow-avatar-datasets/blob/main/wow-full.parquet
 ```
