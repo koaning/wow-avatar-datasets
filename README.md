@@ -6,7 +6,9 @@
 
 <br>
 
-This repository contains the parquet files that belong to the [World of Warcraft Avatar History Dataset](http://web.cs.wpi.edu/~claypool/mmsys-dataset/2011/wow/p123.pdf). 
+This repository contains the parquet files that belong to the [World of Warcraft Avatar History Dataset](http://web.cs.wpi.edu/~claypool/mmsys-dataset/2011/wow/p123.pdf). The original data came in a 577 RAR 
+file that contained 138066 text files. Once converted into a standard .csv file it became 2.1G big. So
+I figured to make it easier of others to use to instead turn this into more lightweight parquet files. 
 
 To quote the [docs](http://web.cs.wpi.edu/~claypool/mmsys-dataset/2011/wow/author.html); 
 the dataset contains the data over 1,107 days between Jan. 2006 and Jan. 2009. 
@@ -29,3 +31,4 @@ wget https://github.com/koaning/wow-avatar-datasets/blob/main/wow-lite.parquet
 # To get the `full` version
 wget https://github.com/koaning/wow-avatar-datasets/blob/main/wow-full.parquet
 ```
+
