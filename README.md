@@ -23,7 +23,7 @@ This dataset can be an amazing resource to study bot behavior, churn, marketing 
 
 To download the data, run: 
 
-```
+```bash
 # To get the `lite` version with only player_id, level and timestamp 
 wget https://github.com/koaning/wow-avatar-datasets/blob/main/wow-lite.parquet
 # To get the `full` version
