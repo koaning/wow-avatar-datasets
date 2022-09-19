@@ -1,2 +1,16 @@
-# wow-avatar-datasets
-A place to host some parquet files.
+# World of Warcraft Avatar Datasets
+
+> A place to host some interesting parquet files.
+
+This repository contains the parquet files that belong to the [World of Warcraft Avatar History Dataset](http://web.cs.wpi.edu/~claypool/mmsys-dataset/2011/wow/p123.pdf). 
+
+To quote the [docs](http://web.cs.wpi.edu/~claypool/mmsys-dataset/2011/wow/author.html); 
+the dataset contains the data over 1,107 days between Jan. 2006 and Jan. 2009. 
+During the monitored period, 91,065 avatars, and 667,032 sessions associated with the avatars were 
+observed. Because the sampling interval was 10 minutes, there should have been 159,408 
+samples, each providing the status of all the avatars online during the sampling period. 
+To protect players' privacy, we mapped the avatars' names and guild names randomly as 
+positive integers with a consistent mapping (i.e., the same names were always mapped 
+to the same integers).
+
+This dataset can be an amazing resource to study bot behavior, churn, marketing and video game addiction.
