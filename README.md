@@ -1,6 +1,6 @@
 <img src="orc.png" width="125" height="125" align="right" />
 
-# World of Warcraft Avatar Datasets
+### World of Warcraft Avatar Datasets
 
 > A place to host some interesting parquet files.
 
